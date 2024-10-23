@@ -100,7 +100,20 @@ $\color{magenta}{\textsf{"Agent": 함수 호출방식 추가가능.}}$
 - $\color{orange}{\textsf{Response}}$
 
 ```json
+# 성공 시
 {
+    "status": "success",
+    "message": "성공적으로 LLM업데이트 요청되었습니다."
+    "Response_Data": {
+        "Update_status":"success"
+    }
+}
+
+# 실패 시
+{
+    "status": "fail",
+    "message": "잘못된 입력입니다. 정보를 다시 입력해주세요"
+    "Response_Data": null
 }
 ```
 
