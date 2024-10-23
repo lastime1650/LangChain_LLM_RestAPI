@@ -17,10 +17,14 @@ LangChain기반으로 구현된 LLM기능을 RestAPI ( FastAPI )으로 사용할
 1. */api/Create_LLM_instance*<br>
 LLM대화 인스턴스 발급받기
 
+요청시 JSON예시:
 
-2. */api/Start_Conversation*<br>
+<br><br>
+
+3. */api/Start_Conversation*<br>
 LLM대화하기
 
+<br><br>
 
 4. */api/Update_LLM*<br>
 LLM 설정변경
