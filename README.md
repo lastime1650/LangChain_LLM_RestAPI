@@ -14,7 +14,7 @@ LangChain기반으로 구현된 LLM기능을 RestAPI ( FastAPI )으로 사용할
 ---
 # 어떤 API 호출이 가능한가?
 
-$\color{lime}{\textsf{Request}}$ -> API요청시 JSON예시.<br>
+$\color{lime}{\textsf{Request}}$ -> RestAPI요청시 JSON예시.<br>
 $\color{orange}{\textsf{Response}}$ -> RestAPI의 응답 JSON<br>
 
 ## 1. */api/Create_LLM_instance*<br>
