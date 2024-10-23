@@ -47,6 +47,13 @@ LLM대화 인스턴스 발급받기
         "Conversation_ID": "zxczxczxc..."
     }
 }
+
+# 실패 시
+{
+    "status": "fail",
+    "message": "인스턴스 생성 실패" # 또는 "잘못된 입력입니다. 정보를 다시 입력해주세요"
+    "Response_Data": null
+}
 ```
 
 
