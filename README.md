@@ -32,7 +32,7 @@ LLM대화 인스턴스 발급받기
 ```
 
 <br>
-- $\color{orange}{\textsf{Response}}$
+- $\color{orange}{\textsf{Response}}$<br>
 ```json
 ```
 
