@@ -24,7 +24,7 @@ LangChain기반으로 구현된 LLM기능을 RestAPI ( FastAPI )으로 사용할
 $\color{lime}{\textsf{Request}}$ -> API요청시 JSON예시.<br>
 $\color{orange}{\textsf{Response}}$ -> RestAPI의 응답 JSON<br>
 
-1. */api/Create_LLM_instance*<br>
+## 1. */api/Create_LLM_instance*<br>
 LLM대화 인스턴스 발급받기
 - $\color{lime}{\textsf{Request}}$<br>
 ```json
@@ -52,11 +52,11 @@ LLM대화 인스턴스 발급받기
 
 <br><br>
 
-3. */api/Start_Conversation*<br>
+## 2. */api/Start_Conversation*<br>
 LLM대화하기
 
 <br><br>
 
-4. */api/Update_LLM*<br>
+## 3. */api/Update_LLM*<br>
 LLM 설정변경
 
