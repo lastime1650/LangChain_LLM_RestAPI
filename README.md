@@ -44,7 +44,7 @@ LLM대화 인스턴스 발급받기
     "status": "success",
     "message": "성공적으로 LLM대화 인스턴스 생성되었습니다."
     "Response_Data": {
-        "Conversation_ID": "zxczxczxc..."
+        "Conversation_ID": "zxczxczxc..." # 핵심
     }
 }
 
