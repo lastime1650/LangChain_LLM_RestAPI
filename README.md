@@ -12,3 +12,16 @@ LangChain기반으로 구현된 LLM기능을 RestAPI ( FastAPI )으로 사용할
 이 ID는 "독립적인 LLM대화세션"을 구현하기 위함입니다. 
 
 ---
+# 어떤 API 호출이 가능한가?
+
+1. */api/Create_LLM_instance*<br>
+LLM대화 인스턴스 발급받기
+
+
+2. */api/Start_Conversation*<br>
+LLM대화하기
+
+
+4. */api/Update_LLM*<br>
+LLM 설정변경
+
