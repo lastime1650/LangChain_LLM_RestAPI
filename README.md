@@ -124,7 +124,22 @@ LLM대화하기
 - $\color{lime}{\textsf{Request}}$
 
 ```json
+# 일반 대화용
 {
+    "Request_Data": {
+        "Conversation_Type": "Default", # 무조건 일반 대화형임
+        "Conversation_ID": "zxczxczxc...",
+        "Input_Text": 안녕하세요~ 넌 누구니?
+    }
+}
+
+# Agent 대화용
+{
+    "Request_Data": {
+        "Conversation_Type": "Agent", # 무조건 일반 대화형임
+        "Conversation_ID": "zxczxczxc...",
+        "Input_Text": 안녕하세요~ 웹페이지를 이동해주세요
+    }
 }
 ```
 
