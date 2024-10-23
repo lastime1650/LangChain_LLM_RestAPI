@@ -7,4 +7,4 @@ LangChain기반으로 구현된 LLM기능을 RestAPI ( FastAPI )으로 사용할
 이 LLM RestAPI는 랭체인의 Agent기능과 일반 대화를 수행할 수 있으며, "LLM대화 인스턴스"를 먼저 생성하였을 때, 대화 서비스가 가능합니다. 
 
 ## 1. *LLM대화 인스턴스?*<br>
-이 인스턴스는 RestAPI를 통해 의사소통을 하기 전, 무조건 호출해서 "Conversation_ID"를 발급받아야합니다.
+이 인스턴스는 RestAPI를 통해 의사소통을 하기 전에 "/api/Create_LLM_instance" 호출해서 "Conversation_ID"를 발급받아야합니다.
