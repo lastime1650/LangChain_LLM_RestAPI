@@ -66,6 +66,7 @@ $\color{magenta}{\textsf{"Agent": 함수 호출방식 추가가능.}}$
 - $\color{lime}{\textsf{Request}}$
 
 ```json
+# 일반 대화용 
 {
     "Request_Data": {
         "Conversation_Type": "Default", # Default는 "일반 대화"
@@ -75,6 +76,25 @@ $\color{magenta}{\textsf{"Agent": 함수 호출방식 추가가능.}}$
         }
     }
 }
+
+
+# Agent 대화용
+{
+    "Request_Data": {
+        "Conversation_Type": "Agent",
+        "Conversation_ID": "ConversationID",  // 실제 ConversationID 값을 대체해야 함
+        "Update_Data": {
+            "Add_Tool": [
+                {
+                    "Tool_Name": "a.Agent_Tool_name",  // 실제 Tool_Name 값을 대체해야 함
+                    "Tool_Prompt": "a.Generate_Agent_Tool_Description()"  // 실제 Tool_Prompt 값을 대체해야 함
+                }
+            ]
+        }
+    }
+}
+
+
 ```
 
 - $\color{orange}{\textsf{Response}}$
