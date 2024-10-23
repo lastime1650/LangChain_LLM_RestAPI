@@ -30,12 +30,10 @@ LLM대화 인스턴스 발급받기
     }
 }
 ```
+
 <br>
 - $\color{orange}{\textsf{Response}}$
 ```json
-# 성공시,
-
-#실패시
 ```
 
 
