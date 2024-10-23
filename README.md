@@ -67,6 +67,13 @@ $\color{magenta}{\textsf{"Agent": 함수 호출방식 추가가능.}}$
 
 ```json
 {
+    "Request_Data": {
+        "Conversation_Type": "Default", # Default는 "일반 대화"
+        "Conversation_ID": "zxczxczxc...",
+        "Update_Data": {
+            "System_Message": "당신은 훌륭한 챗봇입니다." # 중요
+        }
+    }
 }
 ```
 
