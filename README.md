@@ -23,10 +23,10 @@ LLM대화 인스턴스 발급받기
 - $\color{lime}{\textsf{Request}}$
 ```json
 {
-    'Request_Type': 'Create_Conversation', # 필수 문자열
-    'Request_Data': {
-        'LLM_MODEL': "Default", #또는 "gpt-4o-mini"가능. # LLM 서버에서 지원가능한 str이여야함
-        'API_KEY': "xxxxxxx" # 옵션이긴한데, 사용자가 'LLM_MODEL'키의 값이 Default로 설정하지 않으면 API_KEY가 필요하니까 일단 넣는다.
+    "Request_Type": "Create_Conversation", # 필수 문자열
+    "Request_Data": {
+        "LLM_MODEL": "Default", #또는 "gpt-4o-mini"가능. # LLM 서버에서 지원가능한 str이여야함
+        "API_KEY": "xxxxxxx" # 옵션이긴한데, 사용자가 'LLM_MODEL'키의 값이 Default로 설정하지 않으면 API_KEY가 필요하니까 일단 넣는다.
     }
 }
 ```
