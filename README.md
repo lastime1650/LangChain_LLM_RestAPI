@@ -20,7 +20,7 @@ $\color{orange}{\textsf{Response}}$ -> RestAPI의 응답 JSON<br>
 
 1. */api/Create_LLM_instance*<br>
 LLM대화 인스턴스 발급받기
-
+- $\color{lime}{\textsf{Request}}$
 
 
 <br><br>
