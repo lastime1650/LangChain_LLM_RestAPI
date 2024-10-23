@@ -30,10 +30,11 @@ LLM대화 인스턴스 발급받기
     }
 }
 ```
+- $\color{orange}{\textsf{Response}}$
 
-<br>
-- $\color{orange}{\textsf{Response}}$<br>
 ```json
+{
+}
 ```
 
 
