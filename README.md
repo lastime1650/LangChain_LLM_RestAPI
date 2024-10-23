@@ -14,6 +14,12 @@ LangChain기반으로 구현된 LLM기능을 RestAPI ( FastAPI )으로 사용할
 ---
 # 어떤 API 호출이 가능한가?
 
+- $\color{orange}{\textsf{Response}}$
+
+```json
+{
+}
+```
 
 $\color{lime}{\textsf{Request}}$ -> API요청시 JSON예시.<br>
 $\color{orange}{\textsf{Response}}$ -> RestAPI의 응답 JSON<br>
@@ -33,7 +39,13 @@ LLM대화 인스턴스 발급받기
 - $\color{orange}{\textsf{Response}}$
 
 ```json
+# 성공 시
 {
+    "status": "success",
+    "message": "성공적으로 LLM대화 인스턴스 생성되었습니다."
+    "Response_Data": {
+        "Conversation_ID": "zxczxczxc..."
+    }
 }
 ```
 
