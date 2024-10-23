@@ -136,7 +136,7 @@ LLM대화하기
 # Agent 대화용
 {
     "Request_Data": {
-        "Conversation_Type": "Agent", # 무조건 일반 대화형임
+        "Conversation_Type": "Agent", # 무조건 Agent 대화형임
         "Conversation_ID": "zxczxczxc...",
         "Input_Text": 안녕하세요~ 웹페이지를 이동해주세요
     }
@@ -146,7 +146,18 @@ LLM대화하기
 - $\color{orange}{\textsf{Response}}$
 
 ```json
+# 성공 시
 {
+    "status": "success",
+    "message": "성공적으로 LLM대화 요청되었습니다.",
+    "Response_Data": "LLM의 응답값"
+}
+
+# 실패 시
+{
+    "status": "fail",
+    "message": "인스턴스 대화요청 실패", # 또는 잘못된 입력입니다. 정보를 다시 입력해주세요
+    "Response_Data": null
 }
 ```
 
