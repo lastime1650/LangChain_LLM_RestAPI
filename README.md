@@ -26,6 +26,7 @@ $\color{orange}{\textsf{Response}}$ -> RestAPI의 응답 JSON<br>
 
 ## 1. */api/Create_LLM_instance*<br>
 LLM대화 인스턴스 발급받기
+*인스턴스 생성 시, Agent와 일반 대화 LLM이 한번에 생성됩니다.*
 - $\color{lime}{\textsf{Request}}$<br>
 ```json
 {
@@ -56,14 +57,28 @@ LLM대화 인스턴스 발급받기
 }
 ```
 
+<br><br>
+
+## 2. */api/Update_LLM*<br>
+LLM 설정변경 ( 프롬프트 변경 ) 
+- $\color{lime}{\textsf{Request}}$
+
+```json
+{
+}
+```
+
+- $\color{orange}{\textsf{Response}}$
+
+```json
+{
+}
+```
 
 <br><br>
 
-## 2. */api/Start_Conversation*<br>
+## 3. */api/Start_Conversation*<br>
 LLM대화하기
 
-<br><br>
 
-## 3. */api/Update_LLM*<br>
-LLM 설정변경
 
