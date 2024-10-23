@@ -138,7 +138,7 @@ LLM대화하기
     "Request_Data": {
         "Conversation_Type": "Agent", # 무조건 Agent 대화형임
         "Conversation_ID": "zxczxczxc...",
-        "Input_Text": 안녕하세요~ 웹페이지를 이동해주세요
+        "Input_Text": 안녕하세요~ 웹페이지를 이동해주세요 # Agent의 경우 요청도 처리할 수 있도록 질의가능
     }
 }
 ```
@@ -150,7 +150,7 @@ LLM대화하기
 {
     "status": "success",
     "message": "성공적으로 LLM대화 요청되었습니다.",
-    "Response_Data": "LLM의 응답값"
+    "Response_Data": "안녕하세요~" #LLM의 응답값
 }
 
 # 실패 시
