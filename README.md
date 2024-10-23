@@ -26,7 +26,7 @@ $\color{orange}{\textsf{Response}}$ -> RestAPI의 응답 JSON<br>
 
 ## 1. */api/Create_LLM_instance*<br>
 LLM대화 인스턴스 발급받기<br>
-$\color{magenta}{\textsf{*인스턴스 생성 시, Agent와 일반 대화 LLM이 한번에 생성됩니다.*}}$
+$\color{magenta}{\textsf{인스턴스 생성 시, Agent와 일반 대화 LLM이 한번에 생성됩니다.}}$
 - $\color{lime}{\textsf{Request}}$<br>
 ```json
 {
