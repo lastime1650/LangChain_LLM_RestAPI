@@ -176,4 +176,35 @@ LLM대화하기
 }
 ```
 
+<br><br>
+
+## 4. */api/Remove_LLM_instance*<br>
+LLM인스턴스 삭제
+- $\color{lime}{\textsf{Request}}$
+
+```json
+{
+    "Request_Data": {
+        "Conversation_ID": "zxczxczxc..."
+    }
+}
+```
+
+- $\color{orange}{\textsf{Response}}$
+
+```json
+# 성공 시
+{
+    "status": "success",
+    "message": "성공적으로 LLM인스턴스를 제거하였습니다.",
+    "Response_Data": "Removed"  
+}
+
+# 실패 시
+{
+    "status": "fail",
+    "message": "잘못된 입력이거나 인스턴스가 존재하지 않습니다.",
+    "Response_Data": null
+}
+```
 
