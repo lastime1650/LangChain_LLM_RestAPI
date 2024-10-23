@@ -61,7 +61,7 @@ $\color{magenta}{\textsf{인스턴스 생성 시, "Agent체인"와 "일반 대�
 
 ## 2. */api/Update_LLM*<br>
 LLM 설정변경 ( 프롬프트 변경 )<br>
-$\color{magenta}{\textsf{"일반 대화": system프롬프트 변경가능(덮어쓰기).}$<br>
+$\color{magenta}{\textsf{"일반 대화": system프롬프트 변경가능(덮어쓰기).}}$<br>
 $\color{magenta}{\textsf{"Agent": 함수 호출방식 추가가능.}}$
 - $\color{lime}{\textsf{Request}}$
 
