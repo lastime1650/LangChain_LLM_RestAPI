@@ -9,3 +9,6 @@ LangChain기반으로 구현된 LLM기능을 RestAPI ( FastAPI )으로 사용할
 ### 1. *LLM대화 인스턴스?*<br>
 이 인스턴스는 RestAPI를 통해 의사소통을 하기 전에 "/api/Create_LLM_instance" 호출해서 "Conversation_ID"를 발급받아야합니다.<br>
 ## "Conversation_ID"의 존재이유<br>
+이 ID는 "독립적인 LLM대화세션"을 구현하기 위함입니다. 
+
+---
