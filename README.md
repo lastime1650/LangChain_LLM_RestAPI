@@ -86,8 +86,8 @@ $\color{magenta}{\textsf{"Agent": 함수 호출방식 추가가능.}}$
         "Update_Data": {
             "Add_Tool": [
                 {
-                    "Tool_Name": "a.Agent_Tool_name",  // 실제 Tool_Name 값을 대체해야 함
-                    "Tool_Prompt": "a.Generate_Agent_Tool_Description()"  // 실제 Tool_Prompt 값을 대체해야 함
+                    "Tool_Name": "Agent_Tool_name",  // 고유하게 함수를 식별하기 위한 Tool 이름 문자열
+                    "Tool_Prompt": "..." //이 부분은 꽤나 복잡함.
                 }
             ]
         }
